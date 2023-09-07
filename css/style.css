@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.375rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0.125rem 0.25rem 0px;
+}
+
+.logo_div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+.logo_div > a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.logo{
+    height: 40%;
+}
+
+.icon_div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.cloud{
+    height: 50%;
+}
+
+.search{
+    height: 50%;
+}
+
+.npo_start{
+    height: 40%;
+}
+
+.dots{
+    font-size: 2.5rem;
+}
