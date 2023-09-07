@@ -37,6 +37,7 @@ header{
     display: flex;
     align-items: center;
     width: fit-content;
+    gap: 1.3rem;
 }
 
 .cloud{
@@ -53,4 +54,33 @@ header{
 
 .dots{
     font-size: 2.5rem;
+}
+
+main{
+    height: 50rem;
+}
+
+footer{
+}
+
+.top-footer{
+    height: 37rem;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.2rem;
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+.red-hover:hover{
+    color: red;
+}
+
+.footer-icons{
+    height: 2rem;
 }
